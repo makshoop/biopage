@@ -1,0 +1,121 @@
+:root {
+    --purple: #14012eaa;
+    --peach: #fdc4a5;
+    --bg: #a3e6fb87;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--bg);
+    padding: 0;
+    margin: auto;
+    padding:80px 50px;
+    max-width: 750px;
+    display: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-profile {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 35px;
+}
+
+.profile-header-title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    margin: 0;
+    color: var(--purple);
+}
+
+.profile-header-title p:nth-child(1) {
+    margin-bottom: 5px;
+}
+
+.nn {
+    color: white;
+    background: var(--purple);
+    display: inline-flex;
+    padding: 10px 12px;
+    border-radius: 4px;
+}
+
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: url("images/avatar.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 3px solid var(--purple);
+    margin: 0 30px;
+}
+
+@media (max-width: 650px) {
+    .section-profile {
+        display: block;
+        text-align: center;
+    }
+    .profile-photo {
+        margin: auto;
+    }
+
+.social-icons {
+    margin: 0 30px;
+    font-size: 50px;
+    color: var(--purple);
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+
+.icon:hover {
+    color: var(--peach);
+}
+
+.section-links {
+    padding: 20px;
+   
+
+}
+
+.link {
+    background: var(--purple);
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    width: 100%;
+    border-radius: 4px;
+    padding: 20px;
+    margin: 15px;
+    margin-left: auto;
+}
+
+.link:hover {
+    background: var(--peach);
+}
+
+.link-title {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 700;
+    font-size: 20px;
+    margin: 0;
+    margin-bottom: 6px;
+}
+
+.link-title + p {
+    margin: 0;
+    margin-top: 10px;
+}
+
+.link-a {
+    text-decoration: none;
+    color: var(--purple);
+}
