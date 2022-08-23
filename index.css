@@ -66,6 +66,10 @@ body {
     .profile-photo {
         margin: auto;
     }
+
+    body {
+        padding: 30px 0;
+    }
 }
 
 .social-icons {
