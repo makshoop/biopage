@@ -9,7 +9,7 @@
 }
 
 body {
-    background: var(--bg);
+    background: var(--bg-color);
     padding: 0;
     margin: auto;
     padding: 80px 50px;
@@ -31,7 +31,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-size: 30px;
     margin: 0;
-    color: var(--purple);
+    color: var(--primary-color);
 }
 
 .profile-header-title p:nth-child(1) {
@@ -40,7 +40,7 @@ body {
 
 .nn {
     color: white;
-    background: var(--purple);
+    background: var(--primary-color);
     display: inline-flex;
     padding: 10px 12px;
     border-radius: 4px;
@@ -54,7 +54,7 @@ body {
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
-    border: 3px solid var(--purple);
+    border: 3px solid var(--primary-color);
     margin: 0 30px;
 }
 
@@ -75,14 +75,14 @@ body {
 .social-icons {
     margin: 0 30px;
     font-size: 50px;
-    color: var(--purple);
+    color: var(--primary-color);
     display: flex;
     justify-content: center;
     gap: 80px;
 }
 
 .icon:hover {
-    color: var(--peach);
+    color: var(--secondary-color);
 }
 
 .section-links {
@@ -90,7 +90,7 @@ body {
 }
 
 .link {
-    background: var(--purple);
+    background: var(--primary-color);
     color: white;
     font-family: 'Ubuntu', sans-serif;
     width: 100%;
@@ -101,7 +101,7 @@ body {
 }
 
 .link:hover {
-    background: var(--peach);
+    background: var(--primary-color);
 }
 
 .link-title {
@@ -120,5 +120,5 @@ body {
 
 .link-a {
     text-decoration: none;
-    color: var(--purple);
+    color: var(--primary-color);
 }
