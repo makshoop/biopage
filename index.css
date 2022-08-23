@@ -12,7 +12,7 @@ body {
     background: var(--bg);
     padding: 0;
     margin: auto;
-    padding:80px 50px;
+    padding: 80px 50px;
     max-width: 750px;
     display: center;
     justify-content: center;
@@ -87,8 +87,6 @@ body {
 
 .section-links {
     padding: 20px;
-   
-
 }
 
 .link {
